@@ -958,6 +958,14 @@ footer .copy-right p {
         margin-top: -50px;
     }
 
+    .buttons .stager{
+      display: none;
+    }
+
+    .buttons .stager.stager-anime{
+      display: block;
+    }
+
     @keyframes slide-in {
         0%{
             left: 120%;
@@ -1141,7 +1149,7 @@ footer .copy-right p {
 
 .image{
     opacity: 0;
-    transform: rotate(180deg);
+    transform: rotate(90deg);
     transition: transform 2s, opacity 2s;
 }
 
